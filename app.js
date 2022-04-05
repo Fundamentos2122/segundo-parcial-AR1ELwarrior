@@ -18,8 +18,8 @@ function submitRecipe(e){
     let recipe = {
         id: Date.now(),
         title: formReceta["title"].value,
-        description: formReceta["img_url"].value,
-        img_url: formReceta["description"].value
+        description: formReceta["description"].value,
+        img_url: formReceta["img_url"].value
        // ingredientes: formReceta["ingredient-name"].value
     };
 
