@@ -333,3 +333,29 @@ textarea {
     --btn-altern-font-color: var(--color-dark);
     --btn-altern-bg-color: var(--color-warning-darker);
 }
+
+@media (max-width: 780px) {
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-form {
+    width: 100%;
+    height: 100vh;
+}
+.form-group{
+    margin-top: 2.5em;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+}
+.main-content {
+    width: 100%;
+}
+
+.color-primary {
+    height: 100vh;
+}
+}
